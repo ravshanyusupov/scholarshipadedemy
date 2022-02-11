@@ -66,7 +66,7 @@
     border-radius: 50%;
     outline: 0;
     background-color: rgba(0, 41, 195, 0.6);
-    margin: 0
+    margin: 0;
 }
 
 #city .univers .controls .dots .slick-dots li.slick-active button, #city .univers .controls .dots .slick-dots li:hover button {
@@ -74,28 +74,28 @@
 }
 
 #footer .row .contacts .socials a, #header .container .contacts .socials a {
-    margin-left: 14px
+    margin-left: 14px;
 }
 
 #footer .row .contacts .socials a .icon-ins, #header .container .contacts .socials a .icon-ins {
     background-image: url(../img/sprite.png);
     background-position: -884px -462px;
     width: 21px;
-    height: 21px
+    height: 21px;
 }
 
 #footer .row .contacts .socials a .icon-telegram, #header .container .contacts .socials a .icon-telegram {
     background-image: url(../img/sprite.png);
     background-position: -879px -584px;
     width: 17px;
-    height: 17px
+    height: 17px;
 }
 
 #footer .row .contacts .socials a .icon-fb, #header .container .contacts .socials a .icon-fb {
     background-image: url(../img/sprite.png);
     background-position: -852px -584px;
     width: 17px;
-    height: 17px
+    height: 17px;
 }
 
 #card-university .box a, #news .container .article a {
@@ -1356,8 +1356,9 @@ button {
     font-weight: 700
 }
 
-#univers .container .item:hover {
-    background: #fff
+#univers .container .item:hover{
+    transform: scale(1.1);
+    transition-duration: 2.3s;
 }
 
 #card-university {
